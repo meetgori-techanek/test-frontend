@@ -1,0 +1,28 @@
+{
+  "name": "sample-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sample React frontend for Go backend health check",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "lint": "eslint ./src --ext .js,.jsx",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1"
+  },
+  "proxy": "http://localhost:8080",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
+  }
+}

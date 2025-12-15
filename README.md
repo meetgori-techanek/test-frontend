@@ -24,7 +24,7 @@ git --version
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/<your-username>/test-frontend.git
+git clone https://github.com/meetgori-techanek/test-frontend.git
 cd test-frontend
 ```
 
@@ -54,7 +54,7 @@ npm install
 ### 4. Start Frontend Using `nohup`
 
 ```bash
-export REACT_APP_API_URL=http://localhost:8080
+export REACT_APP_API_URL=http://<server-ip>:8080
 nohup npm run build >> frontend.log 2>&1 &
 ```
 
